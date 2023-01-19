@@ -24,8 +24,16 @@ body {
    align-items: center;
 }
 
+nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+}
+
 .logo {
    width: 6rem;
+   margin-left: 5rem;
 }
 
 .logo-container {
@@ -107,3 +115,23 @@ footer {
       flex-direction: row;
    }
  }
+
+ ion-icon {
+   color: var(--maindark);
+ }
+
+ .icon-menu {
+   margin-right: auto;
+   padding: .5rem;
+ }
+
+ .right-nav {
+   margin-left: auto;
+   padding: .5rem;
+ }
+
+ .icon-bag, .icon-search, .icon-dark {
+   padding: .4rem;
+ }
+
+ 
