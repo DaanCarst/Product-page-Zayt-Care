@@ -4,6 +4,15 @@
    --maindark: #cdb38d;
 }
 
+@font-face {
+   font-family: main;
+   src: url(../../fonts/Quattrocento.woff);
+}
+@font-face {
+   font-family: heading;
+   src: url(../../fonts/Americana.woff);
+}
+
 * {
    box-sizing: border-box;
 }
@@ -11,6 +20,11 @@
 body {
    background-color: var(--maincolor);
    margin: 0;
+   font-family: main;
+}
+
+h2 {
+   font-family: heading;
 }
 
 .header {
@@ -59,6 +73,7 @@ nav {
    justify-content: center;
    align-items: left; 
    flex-direction: column;
+   max-width: 1100px;
 }
 
 .item-container {
@@ -125,6 +140,7 @@ footer {
    grid-template-columns: 1fr;
    grid-template-rows: repeat(4, 1fr);
    grid-gap: 20px;
+   max-width: 1100px;
  }
 
  @media only screen and (min-width: 750px) {
@@ -151,7 +167,14 @@ footer {
    .items {
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(1, 1fr);
+      max-width: 1100px;
     }
+
+    .item-img {
+      height: auto;
+      max-width: 100%;
+      border-radius: 5px;
+   }
  }
 
  .accordion {
@@ -190,6 +213,10 @@ footer {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   width: 70%;
+}
+
+.footer {
+   max-width: 1100px;
 }
 
  
