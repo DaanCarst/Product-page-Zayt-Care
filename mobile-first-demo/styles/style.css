@@ -92,10 +92,15 @@ nav {
 
 .info-button {
    width: 10rem;
-   background: transparent;
+   background: #f6f0e7;
    border-color: var(--maindark);
    border-radius: 10px;
    margin: 1rem;
+   font-size: .95em;
+   border: 2px solid var(--maindark);
+   color: var(--maindark);
+   font-weight: 300;
+   cursor: pointer;
 }
 
 footer {
@@ -143,46 +148,12 @@ footer {
    max-width: 1100px;
  }
 
- @media only screen and (min-width: 750px) {
-   footer {
-      flex-direction: row;
-   }
- }
-
- @media only screen and (min-width: 600px) {
-   .items {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-    }
- }
-
- @media only screen and (min-width: 850px) {
-   .items {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-    }
- }
-
- @media only screen and (min-width: 1250px) {
-   .items {
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-      max-width: 1100px;
-    }
-
-    .item-img {
-      height: auto;
-      max-width: 100%;
-      border-radius: 5px;
-   }
- }
-
  .accordion {
   background-color: var(--maindark);
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 70%;
+  width: 240px;
   border: none;
   text-align: left;
   outline: none;
@@ -212,11 +183,63 @@ footer {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  width: 70%;
+  width: 240px;
 }
 
 .footer {
-   max-width: 1100px;
+   display: flex;
+   justify-content: center;
+   align-items: left;
+   flex-direction: column;
 }
+
+.info-button {
+   display: none;
+   visibility: hidden;
+}
+
+@media only screen and (min-width: 750px) {
+   .footer {
+      flex-direction: row;
+   }
+ }
+
+ @media only screen and (min-width: 600px) {
+   .items {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+
+    .info-button {
+      display: block;
+      visibility: visible;
+   }
+
+   .accordion {
+      display: none;
+      visibility: hidden;
+   }
+ }
+
+ @media only screen and (min-width: 850px) {
+   .items {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+    }
+ }
+
+ @media only screen and (min-width: 1250px) {
+   .items {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      max-width: 1100px;
+    }
+
+    .item-img {
+      height: auto;
+      max-width: 100%;
+      border-radius: 5px;
+   }
+ }
 
  
