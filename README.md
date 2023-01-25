@@ -1,19 +1,31 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+<h1>Product page Zayt Care</h1>
 
-# Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+![alt text](https://cdn.discordapp.com/attachments/793090681010257933/1067951999431221298/Screenshot_2023-01-26_003748.jpg)
 
-## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+<h2>📑 Inhoudsopgave<h2>
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+* 🏢 Opdrachtgever
+* ✒️ Opdracht
+* ✂️ Gebruik
+* ✔️ Checklist
 
+<h2>🏢 Opdrachtgever<h2>
 
-## Licentie
+Mijn opdrachtgever tijdens deze opdracht is ZaytCare. ZaytCare is een startup bedrijf waar ze pure argan olie verkopen en uitleggen hoe je die het best zou kunnen gebruiken en waar het product uit bestaat. Mijn bedoeling van de opdracht was dan dus om een pagina te maken waar hun product op staat met wat informatie erbij. Bij ZaytCare volgen hun ook nog de minor opleiding ook op het HVA.
 
-![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+<h2>✒️ Opdracht</h2>
 
-This work is licensed under [GNU GPLv3](./LICENSE).
+Van ZaytCare heb ik dus de opdracht gekregen om een pagina te maken in de huisstijl die hun al hadden in een andere website. In die pagina die ik heb gemaakt moest komen te staan welke producten hun verkopen, wat ze misschien van plan zijn om te verkopen en hoe je deze producten dan zou kunnen gebruiken. Vanaf mijn kant in mijn opleiding is het de bedoeling om de website goed responsive te maken met minstens 2 interacties erbij.
+
+<h2>✂️ Gebruik</h2>
+
+Op deze pagina heb ik een 2 interacties gemaakt waar je informatie over het product kunt halen. De eerst interactie is alleen te zien op mobiel, de interactie hier is een accordion menu waar wat informatie instaat. Een andere interactie waar ik aan heb gewerkt is dan weer alleen te zien op desktop. Hier is de bedoeling dat er een knop is met lees meer waar je dezelfde informatie met een popup krijgt in plaats van in een accordion
+
+<h2>✔️ Checklist</h2>
+
+* [x] responsive
+* [x] popup
+* [x] accordion
+* [x] volgens de aangeboden huisstijl
+* [ ] meerdere producten
+* [ ] Gebruiksaanwijzing
