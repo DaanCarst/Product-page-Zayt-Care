@@ -101,6 +101,11 @@ nav {
    color: var(--maindark);
    font-weight: 300;
    cursor: pointer;
+   transition: transform .2s;
+}
+
+.info-button:hover {
+   transform: scale(1.1);
 }
 
 footer {
@@ -233,7 +238,6 @@ h3 {
    justify-content: center;
    align-items: center; 
    flex-direction: column;
-   text-decoration: none;
 }
 
 .popUp {
@@ -253,10 +257,15 @@ h3 {
    margin: auto;
     position: relative;
     padding: 0;
-    border: 10px solid purple;
-    background-color: white;
+    border: 10px solid var(--maindark);
+    background-color: var(--maincolor);
     width: 80vw;
     aspect-ratio: 2/1;
+    display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: row;
+   padding: 1em;
 }
 
 .popUp div ion-icon {
@@ -265,7 +274,41 @@ h3 {
     padding-right: 10px;
     cursor: pointer;
     z-index: 30;
-    float: right;
+    position: absolute;
+    align-self: flex-start;
+}
+
+.popup-content-left, .popup-content-right {
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+}
+
+.popup-content-right {
+   padding: 5rem;
+}
+
+.popupimg {
+   height: auto;
+   width: 20rem;
+   grid-area: img;
+}
+
+.infoh3 {
+   grid-area: h3text1;
+}
+
+.infottxt {
+   grid-area: infotxt;
+}
+
+.gebruiksh3 {
+   grid-area: h3text2;
+}
+
+.gebruikstxt {
+   grid-area: gebruiks;
 }
 
 @media only screen and (min-width: 750px) {
