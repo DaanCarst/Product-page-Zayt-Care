@@ -6,11 +6,11 @@
 
 @font-face {
    font-family: main;
-   src: url(../../fonts/Quattrocento.woff);
+   src: url(../fonts/Quattrocento.woff);
 }
 @font-face {
    font-family: heading;
-   src: url(../../fonts/Americana.woff);
+   src: url(../fonts/Americana.woff);
 }
 
 * {
